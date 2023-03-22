@@ -1,0 +1,21 @@
+{
+    "name": "telegram-bot-consumer",
+    "version": "1.0.0",
+    "description": "Microservice for sending messages to Telegram from Kafka",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "telegram",
+        "kafka",
+        "microservice"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "kafka-node": "^5.0.0",
+        "node-telegram-bot-api": "^0.53.0"
+    }
+}

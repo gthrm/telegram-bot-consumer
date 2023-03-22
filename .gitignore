@@ -1,0 +1,24 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore .env file
+.env
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.pid
+*.sock
+
+# Ignore environment-specific files
+.env.production
+.env.development
+.env.local
+
+# Ignore other generated files
+build/
+dist/
+coverage/
